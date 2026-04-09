@@ -1,7 +1,7 @@
 *Zepto SQL Data Analysis Project*
-# 🛒 Zepto SQL Data Analysis Project
+#  Zepto SQL Data Analysis Project
 
-## 📌 Project Overview
+##  Project Overview
 
 This project focuses on analyzing product-level data from a Zepto-like grocery delivery platform using SQL. The goal is to extract meaningful business insights related to pricing, discounts, stock availability, and category performance.
 
@@ -9,7 +9,7 @@ The dataset contains product information such as category, price, discount, quan
 
 ---
 
-## 📂 Dataset Description
+##  Dataset Description
 
 The dataset is stored in a table named `zepto` with the following columns:
 
@@ -28,7 +28,7 @@ The dataset is stored in a table named `zepto` with the following columns:
 
 ---
 
-## ⚙️ Database Setup
+##  Database Setup
 
 ```sql
 CREATE TABLE ZEPTO (
@@ -47,7 +47,7 @@ CREATE TABLE ZEPTO (
 
 ---
 
-## 🧹 Data Cleaning Steps
+##  Data Cleaning Steps
 
 * Removed rows where `MRP = 0`
 * Converted price from **paise to rupees**
@@ -72,7 +72,7 @@ select mrp,discounted_selling_price from zepto;
 
 ---
 
-## 📊 Key Business Questions & Insights
+##  Key Business Questions & Insights
 
 ### 🔹 1. Top 10 Best Value Products
 
@@ -183,7 +183,7 @@ GROUP BY category;
 
 ---
 
-## 📈 Key Findings
+##  Key Findings
 
 * Some products offer **very high discounts**, making them attractive for customers.
 * Certain **high-MRP products are out of stock**, indicating demand-supply gaps.
@@ -194,7 +194,7 @@ GROUP BY category;
 
 ---
 
-## 🛠️ Tools Used
+##  Tools Used
 
 * PostgreSQL / pgAdmin
 * SQL (Data Cleaning & Analysis)
@@ -204,14 +204,3 @@ GROUP BY category;
 
 
 
-
-## 👩‍💻 Author
-
-**Rislana Pulipra**
-Electronics & Communication Engineer | Aspiring Data Analyst
-
----
-
-## ⭐ If you like this project
-
-Give it a ⭐ on GitHub and share your feedback!
